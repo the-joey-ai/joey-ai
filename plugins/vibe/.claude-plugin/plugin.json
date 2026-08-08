@@ -1,0 +1,11 @@
+{
+  "name": "vibe",
+  "description": "Joey's working standard for Claude Code projects — sister files derived from a living canon, session rituals, and GitHub discipline.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joey"
+  },
+  "homepage": "https://github.com/the-joey-ai/joey-ai",
+  "repository": "https://github.com/the-joey-ai/joey-ai",
+  "license": "MIT"
+}

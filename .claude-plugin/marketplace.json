@@ -1,0 +1,19 @@
+{
+  "name": "joey-ai",
+  "description": "Skills and plugins from joey.ai — the Constitutional Pattern, operationalised.",
+  "owner": {
+    "name": "Joey",
+    "email": "joeyali@duck.com"
+  },
+  "plugins": [
+    {
+      "name": "vibe",
+      "description": "A working standard for Claude Code projects: sister files scaffolded from a living canon, start-session and wrap-session rituals, and GitHub discipline so no work is left behind.",
+      "author": {
+        "name": "Joey"
+      },
+      "category": "productivity",
+      "source": "./plugins/vibe"
+    }
+  ]
+}
