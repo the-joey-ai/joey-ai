@@ -21,7 +21,7 @@ This repo is also a Claude Code plugin marketplace:
 
 | Plugin | What it is |
 |---|---|
-| [vibe](plugins/vibe/) | A working standard for Claude Code projects — sister files derived from a living canon, start/wrap session rituals, GitHub discipline. Install: `/plugin install vibe@joey-ai` |
+| [vibe](plugins/vibe/) | The document discipline that keeps a project coherent session after session — four moments (`my-design`, `new-project`, `start-session`, `wrap-session`), documents born when needed, a master design every project derives from. Install: `/plugin install vibe@joey-ai` |
 
 ---
 

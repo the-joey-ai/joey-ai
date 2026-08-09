@@ -1,11 +1,12 @@
 {
   "name": "vibe",
-  "description": "Joey's working standard for Claude Code projects — sister files derived from a living canon, session rituals, and GitHub discipline.",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "The document discipline that keeps a vibe-coded project coherent session after session. Four taught moments — /vibe:my-design for the master design identity every project derives from, /vibe:new-project for idea to scaffolded private repo with its north-star documents, /vibe:start-session to orient and aim, /vibe:wrap-session to bank progress and push before it evaporates. Personal adaptation of the work vibe plugin: same principles, one builder, one repo per project.",
   "author": {
     "name": "Joey"
   },
   "homepage": "https://github.com/the-joey-ai/joey-ai",
   "repository": "https://github.com/the-joey-ai/joey-ai",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": "./skills"
 }
