@@ -12,7 +12,7 @@ None of that is a Claude problem. It's a memory problem, and the fix is document
 
 ```
 /plugin marketplace add the-joey-ai/joey-ai
-/plugin install vibe@joey-ai
+/plugin install vibe@method
 ```
 
 ## The four moments
