@@ -6,7 +6,7 @@ The public copy of taught skills and plugins. Publishing home for [joey.ai](http
 Repo: `the-joey-ai/joey-ai` (public). Why it exists: `REQUIREMENTS.md`.
 
 ## Purpose
-Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is lab.
+Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is `~/agents/projects/lab` and `~/agents/method`.
 
 ## Documents
 *What each holds, and when it changes.*
@@ -42,7 +42,7 @@ This file is the system. Local skills help if they are installed. A session that
 This repo is public. Commit at natural seams. Close always pushes. Never force-push. Never commit anything `SECURITY.md` forbids. No bidirectional sync with lab.
 
 ## House Rules
-- **Open to publish, not to live.** Lab is `~/agents/lab`. This folder receives a cleaned copy.
+- **Open to publish, not to live.** Lab is `~/agents/projects/lab`. This folder receives a cleaned copy.
 - **The public copy is a new artefact**, not a private folder with a different remote.
 - **Do not update taught plugins to match lab in this invert.** A later publishing session decides what the next shipped vibe looks like. The copy here is behind the destination method on purpose until that session.
 - **marketplace.json** lists a public contact email. That is deliberate.
