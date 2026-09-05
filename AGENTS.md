@@ -6,12 +6,12 @@ The public copy of taught skills and plugins. Publishing home for [joey.ai](http
 Repo: `the-joey-ai/joey-ai` (public). Why it exists: `REQUIREMENTS.md`.
 
 ## Purpose
-Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is `~/agents/projects/lab` and `~/agents/method`.
+Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is `the-joey-ai/agents` (`method/`). Project record: https://app.notion.com/p/3d256cb62e21813896ddc76217edb29b.
 
 ## Documents
 *What each holds, and when it changes.*
 
-<!-- A cloud session never sees lab or WRITING.md. Write from this: sisters
+<!-- A cloud session may not see WRITING.md. Write from this: sisters
      are CAPS, simply named, at the root; a nested container may earn its own;
      everything else is kebab in a folder named for what it holds. Date a
      filename only when the date is the point. Headings Title Case and short;
@@ -32,17 +32,17 @@ No ARCHITECTURE, DESIGN, SPEC, or ENHANCEMENTS. This is a showroom, not a build.
 ## Sessions
 This file is the system. Local skills help if they are installed. A session that never invokes them still does these jobs.
 
-**Open.** Read `STATUS.md` and `SECURITY.md`. If the session is about the method, stop and open lab.
+**Open.** Read `STATUS.md` and `SECURITY.md`. If the session is about the method, stop and open `the-joey-ai/agents`.
 
 **During.** Sweep for Joey-only facts before anything ships. Record what was stripped.
 
 **Close.** Rewrite `STATUS.md`. Prepend `history/sessions.md`. Commit. Push.
 
 ## Git
-This repo is public. Commit at natural seams. Close always pushes. Never force-push. Never commit anything `SECURITY.md` forbids. No bidirectional sync with lab.
+This repo is public. Commit at natural seams. Close always pushes. Never force-push. Never commit anything `SECURITY.md` forbids. No bidirectional sync with the private method repo.
 
 ## House Rules
-- **Open to publish, not to live.** Lab is `~/agents/projects/lab`. This folder receives a cleaned copy.
+- **Open to publish, not to live.** The method lives in `the-joey-ai/agents`. This folder receives a cleaned copy.
 - **The public copy is a new artefact**, not a private folder with a different remote.
-- **Do not update taught plugins to match lab in this invert.** A later publishing session decides what the next shipped vibe looks like. The copy here is behind the destination method on purpose until that session.
+- **Do not update taught plugins to match the private method without a publishing decision.** A later publishing session decides what the next shipped vibe looks like. The copy here is behind the destination method on purpose until that session.
 - **marketplace.json** lists a public contact email. That is deliberate.
