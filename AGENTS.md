@@ -3,10 +3,10 @@
 
 The public copy of taught skills and plugins. Publishing home for [joey.ai](https://joeyai.substack.com). Not the method, and not a workplace.
 
-Repo: `the-joey-ai/joey-ai` (public). Why it exists: `REQUIREMENTS.md`.
+Repo: `the-joey-ai/joey-ai` (public). Why it exists: `REQUIREMENTS.md`. Project record: https://app.notion.com/p/3d256cb62e21813896ddc76217edb29b; state lives there.
 
 ## Purpose
-Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is `the-joey-ai/agents` (`method/`). Project record: https://app.notion.com/p/3d256cb62e21813896ddc76217edb29b.
+Ship cleaned artefacts — skills and plugins — so a post can point at something that works. A good session here publishes a copy, or decides not to. It does not derive the practice. That work is `the-joey-ai/agents` (`method/`).
 
 ## Documents
 *What each holds, and when it changes.*
