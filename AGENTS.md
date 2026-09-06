@@ -22,8 +22,6 @@ Ship cleaned artefacts — skills and plugins — so a post can point at somethi
 |---|---|---|
 | `REQUIREMENTS.md` | What this publishing project is for | The goal shifts |
 | `SECURITY.md` | What may be public, what must be stripped | A new kind of fact arrives |
-| `STATUS.md` | One screen: where publishing stands | Every close |
-| `history/sessions.md` | The journal, newest first | Every close |
 | `skills/` | Taught skills + packaged `.skill` | A skill is published or revised |
 | `plugins/` | Marketplace plugins | A plugin is published or revised |
 
@@ -32,11 +30,11 @@ No ARCHITECTURE, DESIGN, SPEC, or ENHANCEMENTS. This is a showroom, not a build.
 ## Sessions
 This file is the system. Local skills help if they are installed. A session that never invokes them still does these jobs.
 
-**Open.** Read `STATUS.md` and `SECURITY.md`. If the session is about the method, stop and open `the-joey-ai/agents`.
+**Open.** Read the row's Current and Records, then `SECURITY.md`. If the session is about the method, stop and open `the-joey-ai/agents`.
 
 **During.** Sweep for Joey-only facts before anything ships. Record what was stripped.
 
-**Close.** Rewrite `STATUS.md`. Prepend `history/sessions.md`. Commit. Push.
+**Close.** Write the row: one Current line, Decisions rows, the Log row. Commit. Push.
 
 ## Git
 This repo is public. Commit at natural seams. Close always pushes. Never force-push. Never commit anything `SECURITY.md` forbids. No bidirectional sync with the private method repo.
