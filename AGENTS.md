@@ -14,7 +14,7 @@ Ship cleaned artefacts so a post can point at something that works. A good sessi
 | `README.md` | The public front door | What is shipped changes |
 | `REQUIREMENTS.md` | What this publishing project is for | The goal shifts |
 | `SECURITY.md` | What may be public, what must be stripped | A new kind of fact arrives |
-| `plugins/` | Marketplace plugins: `constitutional-pattern` (Claude era; source of the taught skills), `vibe` (2.0.0, frozen), `my-method` (agent-agnostic, coming) | A plugin is published or revised |
+| `plugins/` | Marketplace plugins: `constitutional-pattern` (Claude era; source of the taught skills), `vibe` (2.0.0, frozen), `my-method` (agent-agnostic) | A plugin is published or revised |
 | `skills/` | Readable copy and packaged `.skill` of each taught skill, regenerated from the plugin by `scripts/package.sh` | The plugin's skill changed |
 
 No ARCHITECTURE, DESIGN, SPEC, or ENHANCEMENTS. This is a showroom, not a build.

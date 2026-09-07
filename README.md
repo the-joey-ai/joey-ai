@@ -7,8 +7,7 @@ Two audiences, two packs.
 |---|---|---|
 | [constitutional-pattern](plugins/constitutional-pattern/) | Claude users | `profile-builder`, `coworker`, `project-instructions`: the three skills that write the profile, the Cowork Global Instructions, and a project's instructions the constitutional way |
 | [vibe](plugins/vibe/) | Claude Code builders | The document discipline that keeps a project coherent session after session: four moments (`my-design`, `new-project`, `start-session`, `wrap-session`), documents born when needed, a master design every project derives from |
-
-A third pack, `my-method`, is coming: the agent-agnostic working method (sessions, project records, worktrees, skills) that works the same in Claude Code, Cursor, and Codex.
+| [my-method](plugins/my-method/) | Anyone building with an agent, in Claude Code, Cursor, or Codex | The same discipline through the lens of the project folder, with no tool or service required: `establish`, `start-session`, `wrap-session`, `worktree`, `skill-helper`. Names nobody; "my" means yours |
 
 ## Install
 This repo is a Claude Code plugin marketplace:
@@ -16,6 +15,7 @@ This repo is a Claude Code plugin marketplace:
 /plugin marketplace add the-joey-ai/joey-ai
 /plugin install constitutional-pattern@joey-ai
 /plugin install vibe@joey-ai
+/plugin install my-method@joey-ai
 ```
 
 ## Skills on their own
