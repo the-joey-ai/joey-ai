@@ -1,0 +1,9 @@
+{
+  "name": "my-method",
+  "version": "1.0.0",
+  "description": "A working method for building things with an agent, through the lens of the project folder: establish writes the documents a project earns (REQUIREMENTS, ARCHITECTURE, SECURITY, an AGENTS.md every agent reads), start-session orients from them and sets a phase in SPEC.md, wrap-session banks the session back into them, worktree keeps branches honest without doing git by hand, and skill-helper builds the skills you find yourself wanting. Works the same in Claude Code, Cursor, and Codex. Names nobody; the method is yours.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "My Method"
+  }
+}
