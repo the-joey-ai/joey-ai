@@ -175,6 +175,7 @@ Two checks before the zip, both learned from real installs:
 
 - **Count the description.** The installer enforces a hard cap of 1,024 characters on the frontmatter `description` and rejects the `.skill` at install time when it's over. Verify the length now and trim if needed — never let the user discover it in their install flow.
 - **Verify the contents.** The zip contains `skill-name/SKILL.md` at its root and nothing that isn't part of the skill — no working notes, no prior `.skill` builds, no test outputs.
+- **Quote the description.** Some marketplace indexers drop a whole plugin when a skill's `description` is an unquoted plain scalar carrying punctuation (dashes, arrows, quotes). Write it as `description: "..."` with inner quotes escaped, or as a `>` block, and the skill installs everywhere.
 
 When a `.skill` is the deliverable, hand off the file itself, every time — even when the skill is a single SKILL.md. It is the installable artifact and the file the user will share. Save it beside the skill folder and say where it is.
 
