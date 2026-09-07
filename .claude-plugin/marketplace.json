@@ -1,5 +1,5 @@
 {
-  "name": "method",
+  "name": "joey-ai",
   "description": "Skills and plugins from joey.ai — the Constitutional Pattern, operationalised.",
   "owner": {
     "name": "Joey",
@@ -7,11 +7,16 @@
   },
   "plugins": [
     {
+      "name": "constitutional-pattern",
+      "description": "For Claude: profile-builder, coworker, and project-instructions, the three skills that write the profile, the Cowork Global Instructions, and a project's instructions the constitutional way.",
+      "author": { "name": "Joey" },
+      "category": "productivity",
+      "source": "./plugins/constitutional-pattern"
+    },
+    {
       "name": "vibe",
       "description": "A working standard for Claude Code projects: sister files scaffolded from a living canon, start-session and wrap-session rituals, and GitHub discipline so no work is left behind.",
-      "author": {
-        "name": "Joey"
-      },
+      "author": { "name": "Joey" },
       "category": "productivity",
       "source": "./plugins/vibe"
     }

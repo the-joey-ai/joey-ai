@@ -1,28 +1,32 @@
 # joey.ai
+The publishing home for [joey.ai on Substack](https://joeyai.substack.com): skills and plugins from the Constitutional Pattern series, shipped as working artefacts rather than just words.
 
-The publishing home for [joey.ai on Substack](https://joeyai.substack.com) — skills and plugins from the Constitutional Pattern series, shipped as working artefacts rather than just words.
+Two audiences, two packs.
 
-## Skills — `skills/`
+| Pack | For | What it is |
+|---|---|---|
+| [constitutional-pattern](plugins/constitutional-pattern/) | Claude users | `profile-builder`, `coworker`, `project-instructions`: the three skills that write the profile, the Cowork Global Instructions, and a project's instructions the constitutional way |
+| [vibe](plugins/vibe/) | Claude Code builders | The document discipline that keeps a project coherent session after session: four moments (`my-design`, `new-project`, `start-session`, `wrap-session`), documents born when needed, a master design every project derives from |
 
-Each folder holds a skill's readable `SKILL.md` alongside its packaged `.skill`. The canonical download for every skill is its **GitHub Release asset**, linked from the post it ships with.
+A third pack, `my-method`, is coming: the agent-agnostic working method (sessions, project records, worktrees, skills) that works the same in Claude Code, Cursor, and Codex.
+
+## Install
+This repo is a Claude Code plugin marketplace:
+```
+/plugin marketplace add the-joey-ai/joey-ai
+/plugin install constitutional-pattern@joey-ai
+/plugin install vibe@joey-ai
+```
+
+## Skills on their own
+Each folder under [`skills/`](skills/) holds a skill's readable `SKILL.md` and its packaged `.skill` for Claude.ai and Cowork. The canonical download is the **GitHub Release asset** linked from the post it ships with.
 
 | Skill | Post |
 |---|---|
 | [profile-builder](skills/profile-builder/) | [Start with your profile](https://joeyai.substack.com/p/the-profile) |
 | [coworker](skills/coworker/) | [Stop starting every session cold](https://joeyai.substack.com/p/the-coworker-layer) |
-
-## Plugins — `plugins/`
-
-This repo is also a Claude Code plugin marketplace:
-
-```
-/plugin marketplace add the-joey-ai/joey-ai
-```
-
-| Plugin | What it is |
-|---|---|
-| [vibe](plugins/vibe/) | The document discipline that keeps a project coherent session after session — four moments (`my-design`, `new-project`, `start-session`, `wrap-session`), documents born when needed, a master design every project derives from. Install: `/plugin install vibe@method` |
+| [project-instructions](skills/project-instructions/) | Post to come |
 
 ---
 
-*This repo was previously `claude-skills`; old links redirect.*
+*This repo was previously `claude-skills`; old links redirect. The marketplace was previously named `method`; `vibe@method` is now `vibe@joey-ai`.*
