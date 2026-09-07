@@ -1,6 +1,6 @@
 ---
 name: coworker
-description: Configure a Cowork-level environment for any user — generate the Global Instructions text that goes into Settings → Cowork → Global Instructions, written as a constitutional document rather than a settings list. Pulls role and work context from the user's existing Claude profile so nothing gets asked twice, runs a short diagnostic on anything the profile doesn't cover, and produces paste-ready conventions that apply to every Cowork session. One-time setup, re-runnable for refinement. Trigger on /coworker, "set up Cowork", "configure Cowork", "Cowork setup", "set up my Global Instructions", "configure my Cowork environment", "make Cowork work for me".
+description: "Configure a Cowork-level environment for any user — generate the Global Instructions text that goes into Settings → Cowork → Global Instructions, written as a constitutional document rather than a settings list. Pulls role and work context from the user's existing Claude profile so nothing gets asked twice, runs a short diagnostic on anything the profile doesn't cover, and produces paste-ready conventions that apply to every Cowork session. One-time setup, re-runnable for refinement. Trigger on /coworker, \"set up Cowork\", \"configure Cowork\", \"Cowork setup\", \"set up my Global Instructions\", \"configure my Cowork environment\", \"make Cowork work for me\"."
 ---
 
 # Coworker
