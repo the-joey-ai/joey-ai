@@ -1,6 +1,6 @@
 ---
 name: project-instructions
-description: Build or refine project instructions for a Claude project — in Claude Chat or Cowork — through a collaborative, philosophy-driven conversation. Use this skill whenever a user wants to set up a new project, write project instructions, capture a working session into project instructions, build a CLAUDE.md or folder instructions file, or refine existing project instructions. Trigger on phrases like "set up this project", "write project instructions", "/project-instructions", "turn this conversation into project instructions", "build a CLAUDE.md", "refresh my project instructions", or "configure this project". Do not use this skill for personal profiles (use profile-builder), one-off configuration questions, or actual project work.
+description: "Build or refine project instructions for a Claude project — in Claude Chat or Cowork — through a collaborative, philosophy-driven conversation. Use this skill whenever a user wants to set up a new project, write project instructions, capture a working session into project instructions, build a CLAUDE.md or folder instructions file, or refine existing project instructions. Trigger on phrases like \"set up this project\", \"write project instructions\", \"/project-instructions\", \"turn this conversation into project instructions\", \"build a CLAUDE.md\", \"refresh my project instructions\", or \"configure this project\". Do not use this skill for personal profiles (use profile-builder), one-off configuration questions, or actual project work."
 ---
 
 # Project Instructions
