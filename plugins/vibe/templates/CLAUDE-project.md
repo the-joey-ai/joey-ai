@@ -7,7 +7,7 @@
 
 {{one-line-plain-description}}
 
-Repo: `the-joey-ai/{{repo-name}}` (private). Why it exists and where it's going: `REQUIREMENTS.md`.
+Repo: `{{owner}}/{{repo-name}}` (private). Why it exists and where it's going: `REQUIREMENTS.md`.
 
 ## What this project is trying to be
 
@@ -33,11 +33,11 @@ Repo: `the-joey-ai/{{repo-name}}` (private). Why it exists and where it's going:
 
 ## How sessions work here
 
-The rhythm is `/vibe:start-session` to open and `/vibe:wrap-session` to close. Both are worth running. Neither is a precondition for helping — if Joey just wants to get on with something, get on with it.
+The rhythm is `/vibe:start-session` to open and `/vibe:wrap-session` to close. Both are worth running. Neither is a precondition for helping — if the owner just wants to get on with something, get on with it.
 
 **If a session starts without the ritual,** do its job anyway before anything else: read `SPEC.md` and the newest session-log entry, then say plainly where the project stands.
 
-**If Joey signals he's finishing** — "thanks, that's all", "I'll pick this up tomorrow" — offer `/vibe:wrap-session` before letting go. Unbanked work is how a project loses its memory: the half-finished step, the thing that got cut, the decision made out loud and never written down.
+**If the owner signals they're finishing** — "thanks, that's all", "I'll pick this up tomorrow" — offer `/vibe:wrap-session` before letting go. Unbanked work is how a project loses its memory: the half-finished step, the thing that got cut, the decision made out loud and never written down.
 
 **While building:** anything cut, deferred, or noticed-and-not-done goes into `ENHANCEMENTS.md` when it happens. If that file doesn't exist yet, create it right then rather than holding the note in your head: the title, then the line *"This is where the version you actually wanted lives while Claude builds the version that ships,"* then a `## The menu` heading with the entry under it. `/vibe:wrap-session` will tidy it into its full shape.
 
@@ -45,14 +45,14 @@ The rhythm is `/vibe:start-session` to open and `/vibe:wrap-session` to close. B
 
 ## Git
 
-This repo is Joey's own: commit at natural seams, and **wrap always pushes** — work that isn't on GitHub doesn't exist. Never force-push; never commit anything `SECURITY.md` forbids.
+This repo is the owner's own: commit at natural seams, and **wrap always pushes** — work that isn't on GitHub doesn't exist. Never force-push; never commit anything `SECURITY.md` forbids.
 
 ## Local-only ground
 
 {{local-only}}
 
-<!-- guidance: anything this project assumes that only exists on one machine — OrbStack
-     containers, launchd jobs, mounted media paths, LAN services, another device. A cloud
+<!-- guidance: anything this project assumes that only exists on one machine — containers,
+     scheduled jobs, mounted paths, LAN services, another device. A cloud
      session cloning this repo reads this section to know what it can touch (code, docs) and
      what it cannot reach (the running stack). Delete this section if the project is fully
      self-contained. -->
@@ -79,8 +79,8 @@ This repo is Joey's own: commit at natural seams, and **wrap always pushes** —
 
 Keep only the three most recent entries here. When a fourth is added, the oldest moves to
 docs/session-history.md (newest first, created on first use). This file loads on every session,
-so an uncapped log would quietly spend more of the budget than the instructions above it — the
-joey-plus-server CLAUDE.md once reached 365 KB this way. The archive keeps the full record; the
+so an uncapped log would quietly spend more of the budget than the instructions above it; an
+uncapped log has been seen to reach hundreds of kilobytes this way. The archive keeps the full record; the
 same move as SPEC.md archiving to docs/spec-history.md.
 
 Anything from an old entry that is still load-bearing does not belong in the archive — a decision

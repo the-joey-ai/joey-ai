@@ -12,7 +12,7 @@ Take entries one at a time. For each: say what the project learned, then ask whe
 
 Clear each entry as it's resolved, and restore the section to `_Empty._` when done — an inbox that never empties teaches wrap-session that appending here is a write-only ritual.
 
-## 2. What Joey came with
+## 2. What the user came with
 
 New rules go straight into the right section, held to the same values-not-vibes standard as the first run — convert any adjective to the observable thing before writing it.
 

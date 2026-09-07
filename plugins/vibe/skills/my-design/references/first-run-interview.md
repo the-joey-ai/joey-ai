@@ -6,7 +6,7 @@ Ask one thing at a time.
 
 ## Before the first question
 
-Check for existing design material. A design doc written for a past project is very often a de facto master that got tailored to one project — the durable half is already written, and the job is separating it from the project-specific half rather than starting cold. Joey has real candidates: the Joey browser's `docs/DESIGN.md` (the §11 personality contract is exactly signature material), Stork's `Context/DESIGN.md`, and the my-substack social-card system (locked palette, Lora serif, fixed geometry — taste, already made specific). Read what he points at first. That respects work already done, and it is a much better opening than a blank page.
+Check for existing design material. A design doc written for a past project is very often a de facto master that got tailored to one project — the durable half is already written, and the job is separating it from the project-specific half rather than starting cold. Ask what exists: a past app's design doc, a personality contract, a social-card system with a locked palette and fixed geometry — taste, already made specific. Read what they point at first. That respects work already done, and it is a much better opening than a blank page.
 
 ## The arc
 

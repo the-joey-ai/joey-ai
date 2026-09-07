@@ -1,4 +1,4 @@
-<!-- guidance: instantiated by /vibe:new-project at kickoff, from Joey's own words.
+<!-- guidance: instantiated by /vibe:new-project at kickoff, from the owner's own words.
      Strip guidance comments; keep plain ones. -->
 
 # Requirements — {{project-name}}
@@ -7,7 +7,7 @@
 
 {{north-star}}
 
-<!-- guidance: the picture of this thing when it is fully itself, written in Joey's own
+<!-- guidance: the picture of this thing when it is fully itself, written in the owner's own
      language rather than translated into technical terms. This is the one section that does
      not get edited down to match reality. When something turns out to be impossible, it goes
      in "Known limitations" below and the target moves — this paragraph stays, because it is
@@ -18,7 +18,7 @@
 
 {{users-and-replaces}}
 
-<!-- guidance: who actually uses this — Joey, the household, Substack readers — and what they
+<!-- guidance: who actually uses this — the owner, the household, readers — and what they
      do today instead: a spreadsheet, a manual process, an app that almost works, nothing at
      all. "What it replaces" is the sharpest test of whether this is worth building, and it
      tells a later session what "better" means in concrete terms. -->
@@ -26,7 +26,7 @@
 ## What v1 has to do
 
 <!-- guidance: the shortest list that makes the thing genuinely worth using — not the full
-     ambition. Each item is something Joey could confirm by using it. If the list runs past
+     ambition. Each item is something the owner could confirm by using it. If the list runs past
      about six items, v1 is probably two versions wearing one name. -->
 
 - [ ] {{must-do}}

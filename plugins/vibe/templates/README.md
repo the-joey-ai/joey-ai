@@ -4,7 +4,7 @@ The single contract for turning any template in this folder into a real project 
 
 ## The rules
 
-1. **Fill every `{{token}}`.** Prose tokens ({{north-star}}, {{character-paragraph}}) are written in Joey's own words, from the conversation — never invented on his behalf and read back when they carry weight.
+1. **Fill every `{{token}}`.** Prose tokens ({{north-star}}, {{character-paragraph}}) are written in the owner's own words, from the conversation — never invented on their behalf and read back when they carry weight.
 2. **Strip every comment marked `guidance`.** `<!-- guidance: ... -->` is instruction to you, the filling skill. None of it survives into the instantiated document.
 3. **Keep every plain comment.** An unmarked `<!-- ... -->` is content — instructions future sessions need, like a session-log format or an archive rule. Stripping one deletes part of the system.
 4. **Delete any repeatable stanza you have no content for.** Several templates carry a heading-plus-content pair meant to be copied per item (`### {{platform}}`, `### {{area}}` / `- [ ] {{check}}`) or dropped entirely. A leftover `{{platform}}` in a finished document is worse than a missing section — the next session reads it as content.
