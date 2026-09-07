@@ -1,6 +1,6 @@
 {
   "name": "constitutional-pattern",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Constitutional Pattern for Claude: three skills that write the layers of instruction Claude reads. profile-builder writes the profile in Claude Settings; coworker writes Cowork Global Instructions; project-instructions writes a project's instructions and its folder CLAUDE.md. Each explains the why, trusts judgment over rules, and defines a working dynamic rather than a checklist.",
   "author": { "name": "Joey" },
   "homepage": "https://github.com/the-joey-ai/joey-ai",
