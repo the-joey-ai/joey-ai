@@ -1,0 +1,15 @@
+{
+  "name": "joey-ai",
+  "displayName": "Joey AI",
+  "owner": { "name": "Joey" },
+  "metadata": {
+    "description": "Skills and plugins from joey.ai: the Constitutional Pattern for Claude, vibe for Claude Code, my-method for any agent.",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    { "name": "constitutional-pattern", "source": "constitutional-pattern", "description": "For Claude: profile-builder, coworker, and project-instructions, the three skills that write the profile, the Cowork Global Instructions, and a project's instructions the constitutional way." },
+    { "name": "vibe", "source": "vibe", "description": "For Claude Code builders: the document discipline that keeps a project coherent session after session; my-design, new-project, start-session, wrap-session." },
+    { "name": "my-method", "source": "my-method", "description": "Agent-agnostic: establish, start-session, wrap-session, worktree, skill-helper, a working method through the lens of the project folder. Names nobody." }
+  ]
+}

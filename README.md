@@ -10,13 +10,14 @@ Two audiences, two packs.
 | [my-method](plugins/my-method/) | Anyone building with an agent, in Claude Code, Cursor, or Codex | The same discipline through the lens of the project folder, with no tool or service required: `establish`, `start-session`, `wrap-session`, `worktree`, `skill-helper`. Names nobody; "my" means yours |
 
 ## Install
-This repo is a Claude Code plugin marketplace:
+This repo is a plugin marketplace for Claude Code, Cursor, and Codex. In Claude Code:
 ```
 /plugin marketplace add the-joey-ai/joey-ai
 /plugin install constitutional-pattern@joey-ai
 /plugin install vibe@joey-ai
 /plugin install my-method@joey-ai
 ```
+In Cursor: Dashboard → Plugins → Add Marketplace → `the-joey-ai/joey-ai`. In Codex: `codex plugin marketplace add the-joey-ai/joey-ai`.
 
 ## Skills on their own
 Each folder under [`skills/`](skills/) holds a skill's readable `SKILL.md` and its packaged `.skill` for Claude.ai and Cowork. The canonical download is the **GitHub Release asset** linked from the post it ships with.

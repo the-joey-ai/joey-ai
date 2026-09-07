@@ -1,0 +1,9 @@
+{
+  "name": "vibe",
+  "version": "2.0.1",
+  "description": "The document discipline that keeps a vibe-coded project coherent session after session. Four taught moments \u2014 /vibe:my-design for the master design identity every project derives from, /vibe:new-project for idea to scaffolded private repo with its north-star documents, /vibe:start-session to orient and aim, /vibe:wrap-session to bank progress and push before it evaporates. One builder, one repo per project.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe"
+  }
+}

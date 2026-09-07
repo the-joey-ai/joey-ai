@@ -1,0 +1,9 @@
+{
+  "name": "joey-ai",
+  "interface": { "displayName": "Joey AI" },
+  "plugins": [
+    { "name": "constitutional-pattern", "source": { "source": "local", "path": "./plugins/constitutional-pattern" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" }, "category": "productivity", "description": "For Claude: profile-builder, coworker, and project-instructions." },
+    { "name": "vibe", "source": { "source": "local", "path": "./plugins/vibe" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" }, "category": "productivity", "description": "For Claude Code builders: my-design, new-project, start-session, wrap-session." },
+    { "name": "my-method", "source": { "source": "local", "path": "./plugins/my-method" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" }, "category": "productivity", "description": "Agent-agnostic: establish, start-session, wrap-session, worktree, skill-helper." }
+  ]
+}
