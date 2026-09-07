@@ -12,7 +12,7 @@ None of that is a Claude problem. It's a memory problem, and the fix is document
 
 ```
 /plugin marketplace add the-joey-ai/joey-ai
-/plugin install vibe@method
+/plugin install vibe@joey-ai
 ```
 
 ## The four moments
@@ -47,4 +47,4 @@ It doesn't deploy, it doesn't gate anything, and it doesn't manage what stays lo
 
 ## Lineage
 
-Personal adaptation of the work vibe plugin (v0.5.1), same principles with the team machinery removed: no shared repo, no kind-folders, no index rows, no hosting checker. One builder, one repo per project, everything private by default, wrap pushes. The adaptation decisions are in [`docs/2026-08-09-personal-adaptation.md`](docs/2026-08-09-personal-adaptation.md).
+Built for one builder: one repo per project, everything private by default, wrap pushes. No shared repo, no index, no team machinery.

@@ -1,13 +1,13 @@
 ---
 name: wrap-session
-description: "Close a working session on a vibe project by banking everything before it evaporates — update SPEC.md to the honest state including half-done steps, move anything cut or deferred into ENHANCEMENTS.md, amend REQUIREMENTS known limitations if reality bit, offer design learnings to the master DESIGN.md, write the session log entry in CLAUDE.md, then commit and push. Use when a session on a vibe project is ending — “let's wrap”, “done for today”, “that's all for now”, “I'm heading out” — or when the command is invoked, and offer it proactively the moment Joey signals he's finishing."
+description: "Close a working session on a vibe project by banking everything before it evaporates — update SPEC.md to the honest state including half-done steps, move anything cut or deferred into ENHANCEMENTS.md, amend REQUIREMENTS known limitations if reality bit, offer design learnings to the master DESIGN.md, write the session log entry in CLAUDE.md, then commit and push. Use when a session on a vibe project is ending — “let's wrap”, “done for today”, “that's all for now”, “I'm heading out” — or when the command is invoked, and offer it proactively the moment the user signals they're finishing."
 ---
 
 # Wrap Session
 
 Everything learned this session that isn't written down is gone. Not degraded — gone. The half-finished step, the thing that got cut, the decision made out loud, the reason something was done a strange way. This skill is the five minutes that turns a session into something the next one can build on.
 
-**Do the work rather than interviewing about it.** Most of what follows you can determine yourself from the session, the diff, and the documents. Only one thing genuinely needs Joey: whether a design learning should travel up to the master. Everything else: write it, then report what you wrote in a few lines. Someone who says "let's wrap" is telling you they're finished talking.
+**Do the work rather than interviewing about it.** Most of what follows you can determine yourself from the session, the diff, and the documents. Only one thing genuinely needs the user: whether a design learning should travel up to the master. Everything else: write it, then report what you wrote in a few lines. Someone who says "let's wrap" is telling you they're finished talking.
 
 ## 1. `SPEC.md` to the honest state
 
@@ -81,11 +81,11 @@ If you genuinely don't know what happened earlier in the session — a long sess
 
 ## 6. Commit and push
 
-One commit unless the session had genuinely separable pieces. Message says what the session did in plain words. Then **push, and verify it landed** (`git status` clean and up to date with origin). These are Joey's own repos: the push is part of the wrap, not a proposal — work that isn't on GitHub doesn't exist. Never force-push; if the push fails (auth, network, diverged), fixing that *is* the remaining work of the session.
+One commit unless the session had genuinely separable pieces. Message says what the session did in plain words. Then **push, and verify it landed** (`git status` clean and up to date with origin). These are the user's own repos: the push is part of the wrap, not a proposal — work that isn't on GitHub doesn't exist. Never force-push; if the push fails (auth, network, diverged), fixing that *is* the remaining work of the session.
 
 ## Close out
 
-One or two sentences: where the project stands now, and what the next session probably starts with. That's the handoff — to future Joey, most likely on a different device.
+One or two sentences: where the project stands now, and what the next session probably starts with. That's the handoff — to the user's future self, most likely on a different device.
 
 ## Boundaries
 
@@ -94,6 +94,6 @@ One or two sentences: where the project stands now, and what the next session pr
 
 ## What to know going in
 
-- **Offer this before it's asked for.** The moment Joey says "thanks, that's great" or "I'll pick this up tomorrow", offer to wrap. Left to habit, wrapping is the first thing to go, and its absence is invisible until the next session opens confused.
+- **Offer this before it's asked for.** The moment the user says "thanks, that's great" or "I'll pick this up tomorrow", offer to wrap. Left to habit, wrapping is the first thing to go, and its absence is invisible until the next session opens confused.
 - **A wrap that finds nothing to bank is suspicious.** Real sessions cut things. If the sweep comes up empty, look again at what was decided rather than what was built.
 - **Half-done is the normal state to record.** The spec is a working document, not a report — messy and true beats clean and wrong.

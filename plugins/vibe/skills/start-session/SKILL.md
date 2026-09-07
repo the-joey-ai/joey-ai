@@ -1,6 +1,6 @@
 ---
 name: start-session
-description: "Open a working session on a vibe project — orient, verify, aim. Reads the project's documents and says plainly where things stand, checks the documents still tell the truth about the code, then sets today's target: continuing the current phase, or picking what's next and writing a fresh SPEC.md for it. Use at the start of any session on a project that has a vibe CLAUDE.md, and whenever Joey says “where were we”, “what was I doing on this”, “let's keep going on <project>”, “pick this back up”, or invokes the command. Not for starting a brand-new project, which is /vibe:new-project, and not a gate — if he already knows what he wants to do, orient briefly and get out of the way."
+description: "Open a working session on a vibe project — orient, verify, aim. Reads the project's documents and says plainly where things stand, checks the documents still tell the truth about the code, then sets today's target: continuing the current phase, or picking what's next and writing a fresh SPEC.md for it. Use at the start of any session on a project that has a vibe CLAUDE.md, and whenever the user says “where were we”, “what was I doing on this”, “let's keep going on <project>”, “pick this back up”, or invokes the command. Not for starting a brand-new project, which is /vibe:new-project, and not a gate — if they already know what they want to do, orient briefly and get out of the way."
 ---
 
 # Start Session
@@ -17,7 +17,7 @@ Then say where things stand in **two or three sentences, in plain language**. Co
 
 > Last session got the upload form working. The current phase is the vendor list page — about half done; the search box filters but sorting is still fake data. Next unchecked step is wiring the sort.
 
-Never paste document contents back. Joey wrote them, or watched them being written; what he needs is the synthesis he'd otherwise have to do himself after two weeks away.
+Never paste document contents back. The user wrote them, or watched them being written; what they need is the synthesis they'd otherwise have to do themselves after two weeks away.
 
 ## Verify
 
@@ -25,7 +25,7 @@ The documents describe reality, and reality moves — sometimes without the docu
 
 1. **Do the checked steps in `SPEC.md` actually exist?** Sample two or three and look at the code. Checkmarks are written at the end of long sessions, and they are the single most common thing to be wrong. Trust the code.
 2. **Is there uncommitted work from last time?** `git status`. If there is, the last session didn't wrap — surface what's there, work out whether it's finished or abandoned, and get it committed or reverted before anything new. Then **pull**: cloud sessions and other machines push too, and building behind the remote is how two sessions' changes become one confusing diff.
-3. **Did automation touch the project?** Several projects have scheduled tasks that commit (the iptv reconcile writes daily). If the log shows commits since the last session entry, fold what they did into the orientation.
+3. **Did automation touch the project?** Some projects have scheduled tasks that commit. If the log shows commits since the last session entry, fold what they did into the orientation.
 
 When something has drifted, fix the document now and say in one line what was off. Drift isn't a failure — it's the normal cost of building faster than you document. Fixing it at the start of a session costs a minute; discovering it three phases later costs a rebuild.
 
@@ -54,7 +54,7 @@ You're done when the target is set and `SPEC.md` reflects it. The session procee
 Say what's missing and offer the honest choice:
 
 - **Genuinely new work** → `/vibe:new-project`.
-- **An existing project worth bringing in** → offer an adoption pass, and **read `references/adopting-a-project.md` before starting one**. It is the full playbook — reconstructing each document honestly, absorbing an existing CLAUDE.md rather than replacing it, spec-history as an index rather than a fabrication. The two rules that govern it: documents only, never code; and done with Joey, not at him.
+- **An existing project worth bringing in** → offer an adoption pass, and **read `references/adopting-a-project.md` before starting one**. It is the full playbook — reconstructing each document honestly, absorbing an existing CLAUDE.md rather than replacing it, spec-history as an index rather than a fabrication. The two rules that govern it: documents only, never code; and done with the user, not at them.
 - **He just wants help with one thing** → help with that one thing. Not every session needs the apparatus, and insisting on it is how a system built to reduce friction becomes friction.
 
 ## What to know going in

@@ -13,8 +13,8 @@ These hold across every project, they are not traded against convenience, and no
 
 - **No credentials in tracked files, ever.** API keys, tokens, passwords, private keys, connection strings, credentialled URLs. They live in a gitignored `secrets.env`, the keychain, or 1Password — referenced by name in this file, never by value anywhere. A credential that lands in git history gets **rotated**, not just removed; removal leaves it in every clone.
 - **Private by default.** Every repo is private unless going public was a deliberate decision recorded in this file. Public is for things built to be published.
-- **Family and personal data never reaches a public repo, and is minimised even in private ones.** Names, emails, household routines, health anything, location patterns. Private repos may carry what the project genuinely needs (a Kindle address the pipeline sends to); this file names each instance so it's a decision, not an accident.
-- **Topology is sensitive.** Network layouts, tailnet inventories, machine maps, device lists, service ports reachable from anywhere. Fine in the private repo that owns them; never in a public one, and never more detailed than the project needs.
+- **Family and personal data never reaches a public repo, and is minimised even in private ones.** Names, emails, household routines, health anything, location patterns. Private repos may carry what the project genuinely needs; this file names each instance so it's a decision, not an accident.
+- **Topology is sensitive.** Network layouts, VPN inventories, machine maps, device lists, service ports reachable from anywhere. Fine in the private repo that owns them; never in a public one, and never more detailed than the project needs.
 
 Being near one of these rarely kills a project. It usually means the data gets handled differently, or the repo stays private. Settle the handling before building, not after.
 
@@ -33,8 +33,7 @@ Being near one of these rarely kills a project. It usually means the data gets h
 
 <!-- guidance: each credential the project uses, BY NAME ONLY, and its real location —
      "READARR_API_KEY — secrets.env (gitignored), consumed by scripts/books/*". If the project
-     has no credentials, say so in one line; that is a statement worth making explicitly.
-     joey-plus-server's SECURITY.md is the reference example of this section done fully. -->
+     has no credentials, say so in one line; that is a statement worth making explicitly. -->
 
 ## Project-specific guardrails
 

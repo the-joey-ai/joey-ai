@@ -1,9 +1,9 @@
 <!-- guidance: created and grown by /vibe:my-design. Lives at ~/Claude/my-design/DESIGN.md,
      its own private repo. Strip guidance comments on first write; keep plain ones. -->
 
-# Joey's design
+# {{owner}}'s design
 
-The way Joey's things look and feel. Written once, grown from every project after.
+The way {{owner}}'s things look and feel. Written once, grown from every project after.
 
 Every project derives from this file: `/vibe:new-project` takes the Signature wholesale plus the Execution notes for that project's platform, then writes the project's own `DESIGN.md` with a verification checklist. This file is the reason a second project looks like it came from the same hands as the first.
 

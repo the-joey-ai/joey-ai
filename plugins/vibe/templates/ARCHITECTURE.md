@@ -7,7 +7,7 @@
 {{one-line-shape}}
 
 <!-- guidance: one sentence describing the shape of the whole thing — "a single web page that
-     reads a spreadsheet and shows a filtered table", "a script on a launchd schedule that
+     reads a spreadsheet and shows a filtered table", "a script on a schedule that
      writes to a database and fires an ntfy digest". If this sentence is hard to write, the
      architecture is not settled yet, and building before it is settled is how projects get
      rebuilt. -->
@@ -32,7 +32,7 @@
 {{runs-where}}
 
 <!-- guidance: the honest deployment picture, because it decides what a cloud session can and
-     cannot do. Name the machine or service each piece runs on — the iMac (OrbStack, launchd),
+     cannot do. Name the machine or service each piece runs on — a home server (a container, a scheduled job),
      a hosted platform, a phone. Anything that only exists on one machine is local-only
      ground, and CLAUDE.md's local-only section should say so. -->
 
