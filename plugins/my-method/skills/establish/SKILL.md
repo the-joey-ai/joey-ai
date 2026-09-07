@@ -73,7 +73,7 @@ If an honest answer touches one of the absolutes, stop and work out the handling
 One project = one folder. In order:
 
 1. **Name it** — kebab-case, and it's worth getting right: the folder name becomes how every session refers to it, and the repo name if there is one.
-2. **Place it** — ask where projects live if you don't already know; the answer is usually one parent folder everything sits under. Adopt mode skips this: the folder is where it is.
+2. **Place it** — ask where the project should live; the user decides, and the answer is usually one parent folder everything sits under. Never assume a home. Adopt mode skips this: the folder is where it is.
 3. **Scaffold to match `ARCHITECTURE.md`** — the structure, not the features. Write a `.gitignore` before anything else: `.DS_Store`, `secrets.env`, caches, logs, build output, `.worktrees/`.
 4. **Write `AGENTS.md` and `CLAUDE.md`** from their templates. `AGENTS.md` is the instructions file: Cursor and Codex read it directly, and Claude Code reaches it through `CLAUDE.md`, which stays a pointer. The character paragraph in `AGENTS.md` is the highest-value block in the project — pull it from the north star and write it as character, not features. Fill local-only ground from Stage 2's question 3.
 5. **Git, then ask about a remote.** `git init -b main` and a first commit if the folder isn't a repo yet. Then one question: "Should this live on GitHub?" If yes, `gh repo create <owner>/<name> --private --source . --push` — private always; public is a deliberate decision that goes through SECURITY.md's "Before going public" checklist, and it's not made here. If no, say so in AGENTS.md's repo line and move on; a folder with commits and no remote is a complete project.

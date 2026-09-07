@@ -79,7 +79,7 @@ Finish with the verification checklist — binary items, grouped by area, each o
 One project = one folder = one private repo. In order:
 
 1. **Name it** — kebab-case, and it's worth getting right: the folder name becomes the repo name becomes how every session refers to it. If the user has a naming convention for a family of projects, follow it; plain names otherwise.
-2. **Place it** — default `~/Claude/Cowork/<name>` (the standing home for projects; Cowork, Claude Code, and the repo all point at the same folder), unless the user's toolchain wants projects elsewhere. Ask only if it's genuinely ambiguous.
+2. **Place it** — ask where the project should live; the user decides. If they have no standing home for projects yet, suggest `~/Claude/Code/<name>` (one parent folder that Claude Code and the repo both point at) and let them accept or change it. Once a home is chosen, use it for the next project without asking again.
 3. **Scaffold to match `ARCHITECTURE.md`** — the structure, not the features. Write a `.gitignore` before anything else: `.DS_Store`, `secrets.env`, caches, logs, build output. If it's a code project, match the stack conventions of the user's nearest sibling project.
 4. **Write `CLAUDE.md` and `AGENTS.md`** from their templates. The character paragraph in `CLAUDE.md` is the highest-value block in the project — pull it from the north star and write it as character, not features. Fill local-only ground from Stage 2's question 3.
 5. **Create the repo and push:** `git init -b main`, first commit, `gh repo create <owner>/<name> --private --source . --push`. Private is the default, always — public is a deliberate decision that goes through SECURITY.md's "Before going public" checklist, and it's not made at kickoff.
