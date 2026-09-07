@@ -24,4 +24,5 @@ Each skill is also packaged on its own as a `.skill` download in [`skills/`](../
 - project-instructions: post to come.
 
 ## Changes
+- 1.0.1 (2026-09-06). Skill descriptions quoted so every marketplace indexer accepts them; text unchanged.
 - 1.0.0 (2026-09-06). First release of the three together. `project-instructions` gains a fallback when the question picker or a present tool is missing, a Claude Code line for the folder file, and a Gotchas section; nothing else changed from the taught version.
